@@ -42,10 +42,10 @@ def main():
 
 def print_math():
     """ Prints some calculated values. """
-    x = math.cos(pi)
+    x = math.cos(math.pi)
     print(x)
 
-    y = math.sin(pi)
+    y = math.sin(math.pi)
     print('The sine of PI is', y)
 
 

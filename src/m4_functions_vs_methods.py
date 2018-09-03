@@ -5,7 +5,7 @@ Demonstrates using (calling) FUNCTIONS and using (calling) METHODS:
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
          their colleagues and Haoran Shi.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 #
