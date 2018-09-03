@@ -69,11 +69,22 @@ def hypotenuse(side1,side2):
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 4b.  In main, CALL your function and print the returned value,
+# DONE: 4b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
 
+def main():
+    ans = turtle('red',10)
+def turtle(color,thickness):
+    window = rg.TurtleWindow()
+    man = rg.SimpleTurtle('turtle')
+    women = rg.SimpleTurtle('turtle')
+    man.pen = rg.Pen('green',thickness)
+    women.pen = rg.Pen(color,5)
+    man.forward(100)
+    women.backward(100)
+    window.close_on_mouse_click()
 
 ###############################################################################
 #
