@@ -42,12 +42,14 @@ def main():
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
+def main():
+    ans = hypotenuse(3,4)
+    print(ans)
 
 def hypotenuse(side1,side2):
     import math
-    ans = hypoteneuse(math.sqrt((side1**2 + side2**2)))
-    print(hypoteneuse)
-    
+    return math.sqrt((side1**2 + side2**2))
+
 
 ###############################################################################
 #
